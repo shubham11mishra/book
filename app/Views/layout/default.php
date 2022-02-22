@@ -15,9 +15,11 @@
 <body>
 
 
+    <main class="container">
+        <?= $this->renderSection('content');  ?>    
+    </main>
 
 
-    <?= $this->renderSection('content');  ?>
 </body>
 
 </html>

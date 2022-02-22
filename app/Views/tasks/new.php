@@ -6,10 +6,7 @@ this is title
 <?= $this->section('content') ?>
 content
 
-<?= $this->section('javascript'); ?>
-    let a = 2;
-    console.log(a);
-<?= $this->endSection() ?>
+
 
 
 <?= $this->endSection() ?>
