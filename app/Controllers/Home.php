@@ -8,7 +8,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        // $faker = service('faker');
+        $faker = service('faker');
         // // generate data by calling methods
         // echo $faker->name();
         // // 'Vince Sporer'
@@ -17,7 +17,8 @@ class Home extends BaseController
         // $client = new \GuzzleHttp\Client();
         // $response =  $client->request("GET", "http://jsonplaceholder.typicode.com/todos");
         // var_dump((string) $response->getBody());
-        return view('tasks/new');
-      
+        //  return view('tasks/new');
+        $faker->title;
+        dd($faker);
     }
 }
