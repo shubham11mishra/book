@@ -14,7 +14,7 @@ class BooksModel extends Model
     protected $returnType       = '\App\Entities\BooksEntity';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['title'];
+    protected $allowedFields    = ['title','description','price','author'];
 
     // Dates
     protected $useTimestamps = true;
